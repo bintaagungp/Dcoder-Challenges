@@ -1,10 +1,17 @@
 #python 3.7.1
 
 import sys
-import math
 
-t = int(sys.stdin.readline())
+# [ Local input ]
+t = 1
+n = 1231.115
+
+# [ Dcoder input ]
+# t = int(sys.stdin.readline())
 
 for i in range(t) :
-    n = float(sys.stdin.readline().strip())
+
+    # [ Dcoder input ]
+    # n = float(sys.stdin.readline().strip())
+    
     print('%.2f'%n)
